@@ -1,4 +1,13 @@
-"use strict";
+#!/usr/bin/env node
+import * as utils from "./utils";
+const { count } = require("./utils.js");
+import fs from "node:fs";
+import _ from "lodash";
 
-console.log("Hello from Hello.js");
-console.log("how areyou");
+const note = process.argv[2];
+const newNote = {
+  content: note,
+  id: Date.now(),
+};
+
+console.log(newNote);

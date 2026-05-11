@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Hello.js",
+  "type": "module",
+  "bin": {
+    "note": "./Hello.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarmad-jalil/NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarmad-jalil/NodeJS/issues"
+  },
+  "homepage": "https://github.com/sarmad-jalil/NodeJS#readme"
+}
